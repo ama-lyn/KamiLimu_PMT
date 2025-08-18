@@ -32,7 +32,7 @@ const ChecklistArtifact = ({ title, items }: { title: string; items: string[]; }
 const QuoteArtifact = ({ text, author }: { text: string; author: string; }) => (
   <div className="mb-6 pl-6 py-4 border-l-2 border-stone-400">
     <Quote className="w-8 h-8 text-stone-400/50 mb-2" />
-    <blockquote className="font-serif text-lg italic text-stone-800 leading-relaxed">"{text}"</blockquote>
+    <blockquote className="font-serif text-lg italic text-stone-800 leading-relaxed">&quot;{text}&quot;</blockquote>
     {author && <cite className="block text-right font-sans text-sm text-stone-600 mt-2 not-italic">— {author}</cite>}
   </div>
 );
