@@ -4,9 +4,9 @@ import type { ExhibitCollection } from '@/interfaces/index'
 
 export const exhibits: ExhibitCollection = {
     entrance: {
-      title: "Museum of Monthly Mastery",
-      subtitle: "A Curated Collection of Learning Excellence",
-      description: "Welcome to a gallery of curated knowledge. Each exhibition hall showcases a domain of intellectual pursuit from this month's journey. Begin your tour to explore the artifacts within.",
+      title: "Museum ^_^",
+      subtitle: "A Showcase of Growth, Insight, and Discovery",
+      description: "Step into a thoughtfully curated space where each room captures a key theme from my KamiLimu month 4 journey. Take a stroll through the lessons, reflections, and ideas that shaped my learning this month.",
       lucideIcon: Building2
     },
     interview: {
