@@ -1,6 +1,6 @@
 import { FC, useState, useEffect } from 'react';
 import { useRouter } from 'next/router';
-import { motion, Variants } from 'framer-motion'; // <-- 1. IMPORT THE 'Variants' TYPE
+import { motion, Variants } from 'framer-motion'; 
 
 const OpeningScreen: FC = () => {
   const router = useRouter();
@@ -23,7 +23,6 @@ const OpeningScreen: FC = () => {
     router.push('/comic');
   };
   
-  // 2. EXPLICITLY TYPE YOUR VARIANT OBJECTS WITH 'Variants'
   const containerVariants: Variants = {
     hidden: { opacity: 0 },
     visible: {
@@ -88,7 +87,7 @@ const OpeningScreen: FC = () => {
           className="text-5xl md:text-6xl font-bold text-gray-800 mb-6 drop-shadow-lg"
           variants={itemVariants}
         >
-          KamiLimu: Month 5
+          KamiLimu Month 5
         </motion.h1>
 
         <motion.p
